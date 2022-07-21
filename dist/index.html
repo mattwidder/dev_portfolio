@@ -36,13 +36,18 @@
           link__hover-effect--black
           ">Contact</a>
         </li>
-        <li class="nav__link click">
+        <li class="nav__link click" onclick="toggleSwitch()">
           <a href="#" class="
           nav__link--anchor
           link__hover-effect
           link__hover-effect--black
+          "><div class="on">
+            <i class="fa-solid fa-toggle-on click"></i>
+          </div>
+          <div class="off"><i class="fa-solid fa-toggle-off click"></i>
+          </div>
           
-          "><i class="fas fa-adjust"></i></a>
+        </a>
         </li>
       </ul>
     </nav>
@@ -80,5 +85,7 @@
       </div>
     </div>
   </section>
+
+  <script src="app.js"></script>
 </body>
 </html>
